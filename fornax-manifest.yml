@@ -1,4 +1,22 @@
 notebooks:
+  - title: "Accessing Cloud-Hosted Data with Astroquery: Live demo"
+    file: notebooks/AAS-248/cloud_data_access_live.ipynb
+    section: AAS 248 Workshop
+    description: Learn how to discover and access cloud-hosted data from cloud-hosted repositories using the astroquery.mast module. (Live demo version.)
+    fornax-env: mast-fornax
+    extra-dependencies: 
+    requirements-file: notebooks/multi_mission/cloud_data_access/requirements.txt
+    keywords: [Astroquery, Observations, Cloud]
+
+  - title: "Accessing Cloud-Hosted Data with Astroquery: Solved"
+    file: notebooks/AAS-248/cloud_data_access.ipynb
+    section: AAS 248 Workshop
+    description: Learn how to discover and access cloud-hosted data from cloud-hosted repositories using the astroquery.mast module.
+    fornax-env: mast-fornax
+    extra-dependencies: 
+    requirements-file: notebooks/multi_mission/cloud_data_access/requirements.txt
+    keywords: [Astroquery, Observations, Cloud]
+
   - title: Accessing Cloud-Hosted Data with Astroquery
     file: notebooks/multi_mission/cloud_data_access/cloud_data_access.ipynb
     section: Multi-Mission Tools

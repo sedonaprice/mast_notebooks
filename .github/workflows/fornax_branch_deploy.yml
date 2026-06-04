@@ -2,7 +2,7 @@ name: Deploy MAST notebooks to Fornax branch
 
 on:
   push:
-    branches: [ main, fornax-manifest ]
+    branches: [ main, fornax-manifest, aas-248 ]
   workflow_dispatch:
 
 jobs:
