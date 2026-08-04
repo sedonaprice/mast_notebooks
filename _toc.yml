@@ -18,6 +18,7 @@ parts:
         - file:  notebooks/multi_mission/cloud_data_access/cloud_data_access.ipynb
     - file:  notebooks/multi_mission/display_footprints/display_footprints.ipynb
     - file:  notebooks/multi_mission/subscriptions/subscriptions.ipynb
+    - file:  notebooks/multi_mission/catalog_access_coordinate_transformation/catalog_access_coordinate_transform.ipynb
 
   - caption: GALEX
     chapters:
@@ -38,7 +39,13 @@ parts:
       sections:
       - file:  notebooks/HSC/HCV_API/HCV_API_demo.ipynb
       - file:  notebooks/HSC/HCV_CASJOBS/HCV_casjobs_demo.ipynb
-    
+
+  - caption: Interactive Data Exploration
+    chapters:
+    - file: notebooks/interactive_data_exploration/how_to/inspect_long_tables/inspect_long_tables.ipynb
+    - file: notebooks/interactive_data_exploration/how_to/organize_widgets/organize_widgets.ipynb
+    - file: notebooks/interactive_data_exploration/how_to/browse_roman_observations/browse_roman_observations.ipynb
+
   - caption: IUE
     chapters:
     - file: notebooks/IUE/exploring_UV_extinction_curves/exploring_UV_extinction_curves.ipynb
