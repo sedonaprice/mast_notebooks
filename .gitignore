@@ -8,3 +8,5 @@ __pycache__/
 server_user_id.txt
 
 mast_api_token.txt
+
+notebooks/Roman/Engineering_Database_Retrieval/edb-data/*
